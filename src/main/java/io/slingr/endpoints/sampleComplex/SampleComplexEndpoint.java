@@ -19,7 +19,7 @@ import org.slf4j.LoggerFactory;
  *
  * <p>Created by egonzalez on 26/09/17.
  */
-@SlingrEndpoint(name = "sample-complex")
+@SlingrEndpoint(name = "samplecomplexhp")
 public class SampleComplexEndpoint extends Endpoint {
     private static final Logger logger = LoggerFactory.getLogger(SampleComplexEndpoint.class);
 

@@ -86,7 +86,7 @@
                 "recordNameField": "name",
                 "fields": [
                     {
-                        "label": "Name",
+                        "label": "Name HHHHH",
                         "name": "name",
                         "type": "text",
                         "multiplicity": "one"
