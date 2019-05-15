@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.slingr.endpoints</groupId>
-    <artifactId>test-endpoint</artifactId>
+    <artifactId>samplecomplexhp</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <name>SLINGR - Sample Complex HP Endpoint</name>

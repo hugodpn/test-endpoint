@@ -1,6 +1,6 @@
 {
     "label": "Sample Complex HP",
-    "name": "test-endpoint",
+    "name": "samplecomplexhp",
     "apiVersion": "v1",
     "internal": true,
     "configurationType": "GLOBAL",
