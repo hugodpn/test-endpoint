@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/test-endpoint.iml" filepath="$PROJECT_DIR$/test-endpoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samplecomplexhp.iml" filepath="$PROJECT_DIR$/samplecomplexhp.iml" />
     </modules>
   </component>
 </project>
