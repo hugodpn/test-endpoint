@@ -15,7 +15,7 @@
         ],
         "allowMultipleInstances": true
     },
-    "icon48": "https://storage.googleapis.com/static.slingrs.io/platform/endpoints/sample-complex.png",
+    "icon48": "https://storage.googleapis.com/static.slingrs.io/platform/endpoints/samplecomplexhp.png",
     "status": "ACTIVE",
     "stores": [],
     "events": [
@@ -27,7 +27,7 @@
     ],
     "functions": [
         {
-            "label": "Ping XXXX",
+            "label": "Ping",
             "name": "ping",
             "callbacks": [
                 {
@@ -86,7 +86,7 @@
                 "recordNameField": "name",
                 "fields": [
                     {
-                        "label": "Name HHHHH",
+                        "label": "Name",
                         "name": "name",
                         "type": "text",
                         "multiplicity": "one"
@@ -190,7 +190,7 @@
             "typeOptions": {
                 "fields":[
                     {
-                        "label": "Simple",
+                        "label": "Simple ASA",
                         "name": "simpleLabel",
                         "type": "label",
                         "value": "Sample Complex endpoint"
