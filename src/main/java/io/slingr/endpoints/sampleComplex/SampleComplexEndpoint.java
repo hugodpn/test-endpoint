@@ -39,6 +39,7 @@ public class SampleComplexEndpoint extends Endpoint {
         response.set("request", data.toString());
         response.set("ping", "pong");
         response.set("ping2", "pong2");
+        response.set("ping3", "pong3");
 
         logger.info(String.format("Function PING: [%s]", response.toString()));
         return response;
