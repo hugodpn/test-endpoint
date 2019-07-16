@@ -54,7 +54,8 @@ public class SampleComplexEndpoint extends Endpoint {
         final Json response = Json.map();
         response.set("configuration", configuration.toString());
         response.set("request", data.toString());
-        response.set("ping", "second_version");
+        response.set("ping", "pongX");
+        response.set("ping1", "pongY");
 
         logger.info(String.format("Function PING: [%s]", response.toString()));
         return response;
