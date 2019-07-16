@@ -38,6 +38,17 @@
             ]
         },
         {
+            "label": "Ping2",
+            "name": "ping2",
+            "callbacks": [
+                {
+                    "name": "pong2",
+                    "maxWaitingTime": 60000,
+                    "maxExpectedResponses": 1
+                }
+            ]
+        },
+        {
             "label": "Execute Script",
             "name": "executeScript"
         }

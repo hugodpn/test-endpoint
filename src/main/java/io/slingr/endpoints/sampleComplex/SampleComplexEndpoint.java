@@ -46,6 +46,20 @@ public class SampleComplexEndpoint extends Endpoint {
     }
 
     @EndpointFunction
+    public Json ping2(FunctionRequest request){
+        final Json data = request.getJsonParams();
+        appLogger.info("Request to PING received", data);
+
+        final Json response = Json.map();
+        response.set("configuration", configuration.toString());
+        response.set("request", data.toString());
+        response.set("ping", "second_version");
+
+        logger.info(String.format("Function PING: [%s]", response.toString()));
+        return response;
+    }
+
+    @EndpointFunction
     public Json executeScript(FunctionRequest request){
         Json data = request.getJsonParams();
         if(data == null){
